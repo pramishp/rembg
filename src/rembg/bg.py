@@ -105,5 +105,4 @@ def remove(
     #
     # bio = io.BytesIO()
     # cutout.save(bio, "PNG")
-
-    return mask
+    return np.asarray(mask.resize(img.shape[:2][::-1], Image.LANCZOS))
