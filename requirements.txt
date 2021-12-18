@@ -2,8 +2,6 @@ flask>=1.1.2
 numpy>=1.19.5
 pillow>=8.0.1
 scikit-image>=0.17.2
-torch==1.7.1+cpu
-torchvision==0.8.2+cpu
 waitress>=1.4.4
 tqdm>=4.51.0
 requests>=2.24.0
@@ -11,3 +9,6 @@ scipy>=1.5.4
 pymatting>=1.1.1
 filetype>=1.0.7
 hsh>=1.1.0
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cpu
+torchvision==0.8.2+cpu
